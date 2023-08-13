@@ -60,7 +60,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>EXPERIENCE THE DIFFERENCE: NOT JUST ANOTHER LESSION</HText>
+          <HText>EXPERIENCE THE DIFFERENCE: NOT JUST ANOTHER LESSON</HText>
           <p className="my-5 text-sm">
             Discover a transformative learning journey at GitPlus Academy. We go
             beyond traditional lessons, offering hands-on experiences that
