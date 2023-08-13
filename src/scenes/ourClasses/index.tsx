@@ -11,35 +11,28 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Web Development",
     image: image1,
   },
   {
-    name: "Yoga Classes",
+    name: "Mobile App Development",
     image: image2,
   },
   {
-    name: "Ab Core Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Python Programming",
     image: image3,
   },
   {
-    name: "Adventure Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Microsoft Office",
     image: image4,
   },
   {
-    name: "Fitness Classes",
+    name: "Graphic Design",
     image: image5,
   },
   {
-    name: "Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Social Media",
+
     image: image6,
   },
 ];
@@ -66,12 +59,15 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           }}
         >
           <div className="md:w-3/5">
-            <HText>OUR CLASSES</HText>
+            <HText>Explore Our Classes</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Discover a world of learning with GitPlus Academy's thoughtfully
+              curated classes. Through immersive hands-on experiences, our
+              courses empower you with practical skills across various tech
+              domains. Whether you're a beginner or looking to advance, our
+              diverse range of classes ensures personalized growth. Join us to
+              elevate your tech journey and thrive in the dynamic world of
+              technology.
             </p>
           </div>
         </motion.div>

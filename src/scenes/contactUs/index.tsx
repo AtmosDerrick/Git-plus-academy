@@ -42,13 +42,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>
-            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
-          </HText>
+          <HText>Get in Touch</HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            Connect with us through our contact channels for inquiries,
+            assistance, and collaboration opportunities. Your journey with
+            GitPlus Academy starts with a simple conversation{" "}
           </p>
         </motion.div>
 

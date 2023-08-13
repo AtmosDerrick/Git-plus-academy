@@ -13,21 +13,21 @@ import Benefit from "./Benefit";
 const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
+    title: "Hands-On Learning",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Unlike traditional lessons, GitPlus Academy immerses you in hands-on experiences. Dive into practical coding exercises that solidify your understanding of tech concepts and equip you with the skills to tackle real-world challenges.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Real-World Projects",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Gain a competitive edge by working on real-world projects that mirror industry scenarios. Apply your knowledge to solve authentic problems, building a portfolio that showcases your practical expertise to potential employers.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
+    title: "Expert Guidance",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Benefit from expert instructors who guide you through every step of your learning journey. Receive personalized feedback on your coding exercises and projects, ensuring you grasp concepts thoroughly and refine your skills effectively.",
   },
 ];
 
@@ -60,11 +60,13 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST GYM.</HText>
+          <HText>EXPERIENCE THE DIFFERENCE: NOT JUST ANOTHER LESSION</HText>
           <p className="my-5 text-sm">
-            We provide world class fitness equipment, trainers and classes to
-            get you to your ultimate fitness goals with ease. We provide true
-            care into each and every member.
+            Discover a transformative learning journey at GitPlus Academy. We go
+            beyond traditional lessons, offering hands-on experiences that
+            empower you with practical tech skills. Elevate your expertise
+            through immersive coding exercises and real-world projects, setting
+            you apart in a competitive tech landscape
           </p>
         </motion.div>
 
@@ -111,10 +113,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">FIT</span>
-                  </HText>
+                  <HText>Empowering Millions: Our Happy Trained Students</HText>
                 </motion.div>
               </div>
             </div>
@@ -131,18 +130,28 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Join our ever-growing family of over a million satisfied
+                students who have embarked on their learning journey with
+                GitPlus Academy. We're dedicated to transforming aspirations
+                into accomplishments, as evidenced by the multitude of success
+                stories within our community. Our practical teaching
+                methodology, backed by expert guidance, has empowered countless
+                individuals to not only grasp complex tech subjects but also
+                apply their knowledge effectively. Experience the impact of
+                quality education as millions of our trained students thrive in
+                diverse tech roles worldwide.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Amidst this expansive network of learners, you'll find a
+                supportive and collaborative environment that fosters growth.
+                Our alumni, now integral parts of various industries,
+                consistently emphasize the real-world applicability of the
+                skills they've honed here. By choosing GitPlus Academy, you're
+                not just enrolling in a program; you're becoming a valued member
+                of a community that celebrates achievements, encourages
+                innovation, and continues to evolve alongside the ever-changing
+                tech landscape. Join us today and become a part of this
+                extraordinary journey toward tech excellence.
               </p>
             </motion.div>
 

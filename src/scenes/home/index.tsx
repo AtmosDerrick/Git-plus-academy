@@ -44,9 +44,8 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              Elevate your tech skills with hands-on learning. Gain practical
+              expertise through interactive coding and real-world projects.
             </p>
           </motion.div>
 
@@ -88,10 +87,10 @@ const Home = ({ setSelectedPage }: Props) => {
       {isAboveMediumScreens && (
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
-              <img alt="redbull-sponsor" src={SponsorRedBull} />
-              <img alt="forbes-sponsor" src={SponsorForbes} />
-              <img alt="fortune-sponsor" src={SponsorFortune} />
+            <div className="flex  w-3/5 items-center justify-between gap-8">
+              <img alt="kidcancode" src={SponsorForbes} />
+              <img alt="kidcancode" src={SponsorFortune} />
+              <img alt="kidcancode" src={SponsorForbes} />
             </div>
           </div>
         </div>
