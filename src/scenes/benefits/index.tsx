@@ -15,7 +15,7 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "Hands-On Learning",
     description:
-      "Unlike traditional lessons, GitPlus Academy immerses you in hands-on experiences. Dive into practical coding exercises that solidify your understanding of tech concepts and equip you with the skills to tackle real-world challenges.",
+      "Unlike traditional lessons, GIT Plus Academy immerses you in hands-on experiences. Dive into practical coding exercises that solidify your understanding of tech concepts and equip you with the skills to tackle real-world challenges.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
@@ -62,8 +62,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
         >
           <HText>EXPERIENCE THE DIFFERENCE: NOT JUST ANOTHER LESSON</HText>
           <p className="my-5 text-sm">
-            Discover a transformative learning journey at GitPlus Academy. We go
-            beyond traditional lessons, offering hands-on experiences that
+            Discover a transformative learning journey at GIT Plus Academy. We
+            go beyond traditional lessons, offering hands-on experiences that
             empower you with practical tech skills. Elevate your expertise
             through immersive coding exercises and real-world projects, setting
             you apart in a competitive tech landscape
@@ -131,9 +131,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
             >
               <p className="my-5">
                 Join our ever-growing family of over a million satisfied
-                students who have embarked on their learning journey with
-                GitPlus Academy. We're dedicated to transforming aspirations
-                into accomplishments, as evidenced by the multitude of success
+                students who have embarked on their learning journey with GIT
+                Plus Academy. We're dedicated to transforming aspirations into
+                accomplishments, as evidenced by the multitude of success
                 stories within our community. Our practical teaching
                 methodology, backed by expert guidance, has empowered countless
                 individuals to not only grasp complex tech subjects but also
@@ -146,7 +146,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 supportive and collaborative environment that fosters growth.
                 Our alumni, now integral parts of various industries,
                 consistently emphasize the real-world applicability of the
-                skills they've honed here. By choosing GitPlus Academy, you're
+                skills they've honed here. By choosing GIT Plus Academy, you're
                 not just enrolling in a program; you're becoming a valued member
                 of a community that celebrates achievements, encourages
                 innovation, and continues to evolve alongside the ever-changing

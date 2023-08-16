@@ -61,7 +61,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>Explore Our Classes</HText>
             <p className="py-5">
-              Discover a world of learning with GitPlus Academy's thoughtfully
+              Discover a world of learning with GIT Plus Academy's thoughtfully
               curated classes. Through immersive hands-on experiences, our
               courses empower you with practical skills across various tech
               domains. Whether you're a beginner or looking to advance, our

@@ -45,8 +45,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           <HText>Get in Touch</HText>
           <p className="my-5">
             Connect with us through our contact channels for inquiries,
-            assistance, and collaboration opportunities. Your journey with
-            GitPlus Academy starts with a simple conversation{" "}
+            assistance, and collaboration opportunities. Your journey with Git
+            Plus Academy starts with a simple conversation{" "}
           </p>
         </motion.div>
 
