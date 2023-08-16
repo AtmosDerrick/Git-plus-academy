@@ -104,17 +104,16 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               <input
                 className={inputStyles}
                 type="text"
-                placeholder="EMAIL"
-                {...register("email", {
+                placeholder="Phone number"
+                {...register("phone", {
                   required: true,
                 })}
               />
-
-              {errors.email && (
+              {errors.phone && (
                 <p className="mt-1 text-primary-500">
-                  {errors.email.type === "required" &&
+                  {errors.phone.type === "required" &&
                     "This field is required."}
-                  {errors.email.type === "pattern" && "Invalid email address."}
+                  {errors.phone.type === "pattern" && "Invalid Phone number."}
                 </p>
               )}
               <textarea
