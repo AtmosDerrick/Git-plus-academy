@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="my-5">
             Empowering Tech Learners Through Practical Education
           </p>
-          <p>© Evogym All Rights Reserved.</p>
+          <p>gitplus All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>

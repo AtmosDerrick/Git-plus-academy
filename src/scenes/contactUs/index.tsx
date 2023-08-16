@@ -66,7 +66,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/ ec5b60972b96c7a3472976f3ef5fa8ac"
+              action="https://formsubmit.co/19e15faa1b8978e4d50e58ad6add964d"
               method="POST"
             >
               <input
@@ -85,7 +85,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     "Max length is 100 char."}
                 </p>
               )}
-
               <input
                 className={inputStyles}
                 type="text"
@@ -102,7 +101,22 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   {errors.email.type === "pattern" && "Invalid email address."}
                 </p>
               )}
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="EMAIL"
+                {...register("email", {
+                  required: true,
+                })}
+              />
 
+              {errors.email && (
+                <p className="mt-1 text-primary-500">
+                  {errors.email.type === "required" &&
+                    "This field is required."}
+                  {errors.email.type === "pattern" && "Invalid email address."}
+                </p>
+              )}
               <textarea
                 className={inputStyles}
                 placeholder="MESSAGE"
@@ -121,7 +135,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     "Max length is 2000 char."}
                 </p>
               )}
-
               <button
                 type="submit"
                 className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
