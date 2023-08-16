@@ -104,7 +104,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               <input
                 className={inputStyles}
                 type="text"
-                placeholder="Phone number"
+                placeholder="PHONE NUMBER"
                 {...register("phone", {
                   required: true,
                 })}
