@@ -6,10 +6,11 @@ import ContactUs from "@/scenes/contactUs";
 import Footer from "@/scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
-import { HomePage } from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+interface Props {}
+
+export const HomePage = (props: Props) => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home
   );
@@ -26,23 +27,20 @@ function App() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
   return (
-    <div className="app bg-gray-20">
-      <BrowserRouter>
+    <div>
+      <div className="app bg-gray-20">
         <Navbar
           isTopOfPage={isTopOfPage}
           selectedPage={selectedPage}
           setSelectedPage={setSelectedPage}
         />
-        <Routes>
-          {" "}
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
+        <Home setSelectedPage={setSelectedPage} />
+        <Benefits setSelectedPage={setSelectedPage} />
+        <OurClasses setSelectedPage={setSelectedPage} />
+        <ContactUs setSelectedPage={setSelectedPage} />
+        <Footer />
+      </div>
     </div>
   );
-}
-
-export default App;
+};
