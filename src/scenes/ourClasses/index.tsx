@@ -13,27 +13,45 @@ const classes: Array<ClassType> = [
   {
     name: "Web Development",
     image: image1,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
   {
     name: "Mobile App Development",
     image: image2,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
   {
     name: "Python Programming",
     image: image3,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
   {
     name: "Microsoft Office",
     image: image4,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
   {
     name: "Graphic Design",
     image: image5,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
   {
     name: "Social Media",
 
     image: image6,
+    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
 ];
 
@@ -71,14 +89,17 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-          <ul className="w-[2800px] whitespace-nowrap">
+        <div className="mt-10 h-auto w-full md:mx-auto md:w-5/6 ">
+          <ul className="">
             {classes.map((item: ClassType, index) => (
               <Class
                 key={`${item.name}-${index}`}
                 name={item.name}
                 description={item.description}
                 image={item.image}
+                course={item.courseOutlined}
+                preRequisite={item.preRequisite}
+                career={item.career}
               />
             ))}
           </ul>

@@ -15,4 +15,7 @@ export interface ClassType {
   name: string;
   description?: string;
   image: string;
+  courseOutlined: Array<string>;
+  preRequisite: Array<string>;
+  career: Array<string>;
 }
