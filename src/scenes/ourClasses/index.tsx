@@ -20,9 +20,16 @@ const classes: Array<ClassType> = [
   {
     name: "Mobile App Development",
     image: image2,
-    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
-    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    courseOutlined: [
+      "Fundamental of Android Dev",
+      "Building UI XML",
+      "Store and Retrieve SQLLite",
+      "Remote Server Connection",
+      "AppStore Deployment",
+      "Git and GitHub",
+    ],
+    preRequisite: ["Basic Computer Skill", "Basic Programming Skills"],
+    career: ["Aspiring Software Enginer", "Aspiring Mobile Dev"],
   },
   {
     name: "Python Programming",
