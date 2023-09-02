@@ -41,9 +41,16 @@ const classes: Array<ClassType> = [
   {
     name: "Microsoft Office",
     image: image4,
-    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
-    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    courseOutlined: [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft Powerpoint",
+      "MicroSoft Outlook",
+      "Microsoft Access",
+      "Productive Tools",
+    ],
+    preRequisite: ["Basic Computer Skill"],
+    career: ["IT Literate", "Secertary"],
   },
   {
     name: "Graphic Design",
