@@ -60,15 +60,32 @@ const classes: Array<ClassType> = [
   {
     name: "Graphic Design",
     image: image5,
-    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
-    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    courseOutlined: [
+      "Principle of Design",
+      "App Usage(Photoshop)",
+      "Brand Identity",
+      "Social Media Posts",
+      "Package Design",
+    ],
+    preRequisite: ["Basic Computer Skill"],
+    career: [
+      "Graphic Designer",
+      "User experience (UX) designer",
+      "User interface (UI) designer",
+    ],
   },
   {
-    name: "Social Media",
+    name: "Digital Marketting",
 
     image: image6,
-    courseOutlined: ["Html & Css", "JavaScript", "React", "BootStrap"],
+    courseOutlined: [
+      "Overview of Digital Marketting",
+      "Building Strong Online Presence",
+      "Social Media Marketting",
+      "Building Strong Online Presence",
+      "Analytics and Interpretation",
+      "Photography",
+    ],
     preRequisite: ["Basic Computer Skill", "Working with Browsers"],
     career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
   },
