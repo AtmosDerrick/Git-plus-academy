@@ -9,8 +9,7 @@ import { SelectedPage } from "@/shared/types";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //Pages
-import { HomePage } from "@/pages/home";
-import { CoursePage } from "@/pages/courses";
+import { HomePage } from "./pages/home";
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home
@@ -40,7 +39,6 @@ function App() {
         <Routes>
           {" "}
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<CoursePage />} />
         </Routes>
       </BrowserRouter>
     </div>
