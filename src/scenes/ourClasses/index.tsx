@@ -5,6 +5,9 @@ import image3 from "@/assets/image3.png";
 import image4 from "@/assets/image4.png";
 import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
+import image7 from "@/assets/image7.png";
+import image8 from "@/assets/image8.png";
+import image9 from "@/assets/image9.png";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Class from "./Class";
@@ -78,6 +81,51 @@ const classes: Array<ClassType> = [
     name: "Digital Marketting",
 
     image: image6,
+    courseOutlined: [
+      "Overview of Digital Marketting",
+      "Building Strong Online Presence",
+      "Social Media Marketting",
+      "Building Strong Online Presence",
+      "Analytics and Interpretation",
+      "Photography",
+    ],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+  },
+  {
+    name: "USSD",
+
+    image: image7,
+    courseOutlined: [
+      "Overview of Digital Marketting",
+      "Building Strong Online Presence",
+      "Social Media Marketting",
+      "Building Strong Online Presence",
+      "Analytics and Interpretation",
+      "Photography",
+    ],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+  },
+  {
+    name: "Microsoft Power Bi",
+
+    image: image8,
+    courseOutlined: [
+      "Overview of Digital Marketting",
+      "Building Strong Online Presence",
+      "Social Media Marketting",
+      "Building Strong Online Presence",
+      "Analytics and Interpretation",
+      "Photography",
+    ],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+  },
+  {
+    name: "Database Managment",
+
+    image: image9,
     courseOutlined: [
       "Overview of Digital Marketting",
       "Building Strong Online Presence",
