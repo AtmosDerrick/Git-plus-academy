@@ -129,7 +129,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   <input
                     className="mx-2 py-4"
                     type="radio"
-                    name="gender"
                     value="male"
                     {...register("Gender", {
                       required: true,
@@ -140,7 +139,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   <input
                     className="mx-2 py-4"
                     type="radio"
-                    name="gender"
                     value="female"
                     {...register("Gender", {
                       required: true,
