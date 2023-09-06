@@ -6,7 +6,6 @@ import ContactUs from "@/scenes/contactUs";
 import Footer from "@/scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 interface Props {}
 
@@ -39,7 +38,7 @@ export const HomePage = (props: Props) => {
         <Benefits setSelectedPage={setSelectedPage} />
         <OurClasses setSelectedPage={setSelectedPage} />
         <ContactUs setSelectedPage={setSelectedPage} />
-        <Footer />
+        <Footer setSelectedPage={setSelectedPage} />
       </div>
     </div>
   );

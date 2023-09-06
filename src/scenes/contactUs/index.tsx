@@ -26,10 +26,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   };
 
   return (
-    <section id="contactus" className="mx-auto w-5/6 pt-24 pb-32">
-      <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
-      >
+    <section id="apply" className="mx-auto w-5/6 pt-24 pb-32">
+      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Apply)}>
         {/* HEADER */}
         <motion.div
           className="md:w-3/5"
@@ -42,11 +40,15 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>Get in Touch</HText>
+          <HText>Fill the form to Apply Now</HText>
           <p className="my-5">
-            Connect with us through our contact channels for inquiries,
-            assistance, and collaboration opportunities. Your journey with Git
-            Plus Academy starts with a simple conversation{" "}
+            At Git Plus Academy, we're always eager to hear from you. Whether
+            you have questions, need assistance, or wish to explore
+            collaboration opportunities, we're just a message away. Your journey
+            with Git Plus Academy begins with a simple conversation. Reach out
+            through our contact channels, and let's start exploring the
+            possibilities together. We're here to support you every step of the
+            way.
           </p>
         </motion.div>
 
@@ -72,19 +74,206 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               <input
                 className={inputStyles}
                 type="text"
-                placeholder="NAME"
-                {...register("name", {
+                placeholder="First Name"
+                {...register("First name", {
                   required: true,
                   maxLength: 100,
                 })}
               />
-              {errors.name && (
+              {errors.firstname && (
                 <p className="mt-1 text-primary-500">
-                  {errors.name.type === "required" && "This field is required."}
-                  {errors.name.type === "maxLength" &&
+                  {errors.firstname.type === "required" &&
+                    "This field is required."}
+                  {errors.firstname.type === "maxLength" &&
                     "Max length is 100 char."}
                 </p>
               )}
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="Last Name"
+                {...register("Last name", {
+                  required: true,
+                  maxLength: 100,
+                })}
+              />
+              {errors.lastname && (
+                <p className="mt-1 text-primary-500">
+                  {errors.lastname.type === "required" &&
+                    "This field is required."}
+                  {errors.lastname.type === "maxLength" &&
+                    "Max length is 100 char."}
+                </p>
+              )}
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="Other Name"
+                {...register("Other name", {
+                  required: false,
+                  maxLength: 100,
+                })}
+              />
+              {errors.othername && (
+                <p className="mt-1 text-primary-500">
+                  {errors.othername.type === "required" &&
+                    "This field is required."}
+                  {errors.othername.type === "maxLength" &&
+                    "Max length is 100 char."}
+                </p>
+              )}
+              <div>
+                {" "}
+                <h3>Gender</h3>
+                <div className="flex">
+                  <input
+                    className="mx-2 py-4"
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    {...register("Gender", {
+                      required: true,
+                      maxLength: 100,
+                    })}
+                  />
+                  <h3>Male</h3>
+                  <input
+                    className="mx-2 py-4"
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    {...register("Gender", {
+                      required: true,
+                      maxLength: 100,
+                    })}
+                  />
+                  <h3>Female</h3>
+
+                  <input
+                    className="mx-2 py-4"
+                    type="radio"
+                    name="gender"
+                    value="other"
+                    {...register("Gender", {
+                      required: true,
+                      maxLength: 100,
+                    })}
+                  />
+                  <h3>Other</h3>
+                  {errors.gender && (
+                    <p className="mt-1 text-primary-500">
+                      {errors.gender.type === "required" &&
+                        "This field is required."}
+                      {errors.gender.type === "maxLength" &&
+                        "Max length is 100 char."}
+                    </p>
+                  )}
+                </div>
+                <div className="my-4">
+                  <h3>Date of Birth</h3>
+                  <input
+                    className={inputStyles}
+                    type="date"
+                    placeholder="Other Name"
+                    {...register("Other name", {
+                      required: false,
+                      maxLength: 100,
+                    })}
+                  />
+                  {errors.othername && (
+                    <p className="mt-1 text-primary-500">
+                      {errors.othername.type === "required" &&
+                        "This field is required."}
+                      {errors.othername.type === "maxLength" &&
+                        "Max length is 100 char."}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="PHONE NUMBER"
+                {...register("phone", {
+                  required: true,
+                })}
+              />
+              {errors.phone && (
+                <p className="mt-1 text-primary-500">
+                  {errors.phone.type === "required" &&
+                    "This field is required."}
+                  {errors.phone.type === "pattern" && "Invalid Phone number."}
+                </p>
+              )}
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="School"
+                {...register("School", {
+                  required: false,
+                })}
+              />
+              {errors.school && (
+                <p className="mt-1 text-primary-500">
+                  {errors.school.type === "required" &&
+                    "This field is required."}
+                  {errors.school.type === "pattern" && "Invalid Phone number."}
+                </p>
+              )}
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="Program"
+                {...register("Program", {
+                  required: true,
+                })}
+              />
+              {errors.progrm && (
+                <p className="mt-1 text-primary-500">
+                  {errors.progrm.type === "required" &&
+                    "This field is required."}
+                  {errors.progrm.type === "pattern" && "Invalid Phone number."}
+                </p>
+              )}
+
+              <h3>Guardian Information</h3>
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="Guardian Name"
+                {...register("Gurdian", {
+                  required: true,
+                })}
+              />
+              {errors.guardian && (
+                <p className="mt-1 text-primary-500">
+                  {errors.guardian.type === "required" &&
+                    "This field is required."}
+                  {errors.guardian.type === "pattern" &&
+                    "Invalid Phone number."}
+                </p>
+              )}
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="PHONE NUMBER"
+                {...register("Guardian phone", {
+                  required: true,
+                })}
+              />
+              {errors.gphone && (
+                <p className="mt-1 text-primary-500">
+                  {errors.gphone.type === "required" &&
+                    "This field is required."}
+                  {errors.gphone.type === "pattern" && "Invalid Phone number."}
+                </p>
+              )}
+
               <input
                 className={inputStyles}
                 type="text"
@@ -101,39 +290,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   {errors.email.type === "pattern" && "Invalid email address."}
                 </p>
               )}
-              <input
-                className={inputStyles}
-                type="text"
-                placeholder="PHONE NUMBER"
-                {...register("phone", {
-                  required: true,
-                })}
-              />
-              {errors.phone && (
-                <p className="mt-1 text-primary-500">
-                  {errors.phone.type === "required" &&
-                    "This field is required."}
-                  {errors.phone.type === "pattern" && "Invalid Phone number."}
-                </p>
-              )}
-              <textarea
-                className={inputStyles}
-                placeholder="MESSAGE"
-                rows={4}
-                cols={50}
-                {...register("message", {
-                  required: true,
-                  maxLength: 2000,
-                })}
-              />
-              {errors.message && (
-                <p className="mt-1 text-primary-500">
-                  {errors.message.type === "required" &&
-                    "This field is required."}
-                  {errors.message.type === "maxLength" &&
-                    "Max length is 2000 char."}
-                </p>
-              )}
+
               <button
                 type="submit"
                 className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"

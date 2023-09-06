@@ -147,7 +147,7 @@ type Props = {
 
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
-    <section id="ourclasses" className="w-full bg-primary-100 py-40">
+    <section id="ourclasses" className="bg-primary-200 w-full py-40">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
       >
@@ -175,7 +175,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-auto w-full md:mx-auto md:w-5/6 ">
+        <div className="mt-10 h-auto w-full md:mx-auto  ">
           <ul className="">
             {classes.map((item: ClassType, index) => (
               <Class
