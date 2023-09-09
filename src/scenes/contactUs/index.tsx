@@ -236,7 +236,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 </p>
               )}
 
-              <h3>Guardian Information</h3>
+              <h3 className="text-lg mb-4 font-semibold">Guardian Information</h3>
 
               <input
                 className={inputStyles}

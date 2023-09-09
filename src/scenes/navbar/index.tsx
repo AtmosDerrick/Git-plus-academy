@@ -104,6 +104,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           </div>
+
+          <div className={`mt-8 flex justify-center `}>
+            <ActionButton setSelectedPage={setSelectedPage}>
+              Apply Now
+            </ActionButton>
+          </div>
         </div>
       )}
     </nav>
