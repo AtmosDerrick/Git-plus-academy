@@ -82,7 +82,7 @@ const classes: Array<ClassType> = [
 
     image: image6,
     courseOutlined: [
-      "Overview of Digital Marketting",
+      "Overview of Digital Marketing",
       "Building Strong Online Presence",
       "Social Media Marketting",
       "Building Strong Online Presence",
@@ -90,7 +90,7 @@ const classes: Array<ClassType> = [
       "Photography",
     ],
     preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    career: ["Digital Marketer", "Content Creater", "Social Media Marketer"],
   },
   {
     name: "USSD",
@@ -107,8 +107,9 @@ const classes: Array<ClassType> = [
       "Simulation USSD Apps",
     ],
     preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    career: ["Aspiring Software Enginer", "USSD Developer"],
   },
+
   {
     name: "Microsoft Power Bi",
 
@@ -122,7 +123,11 @@ const classes: Array<ClassType> = [
       "Photography",
     ],
     preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    career: [
+      "Power BO Data Analyst",
+      "Power BI Developer",
+      "Power BI Software Enginner",
+    ],
   },
   {
     name: "Database Managment",
@@ -137,7 +142,12 @@ const classes: Array<ClassType> = [
       "Photography",
     ],
     preRequisite: ["Basic Computer Skill", "Working with Browsers"],
-    career: ["Aspiring Software Enginer", "Aspiring Web Developer"],
+    career: [
+      "Aspiring Software Enginer",
+      "Database Analyst",
+      "Database Manager",
+      "Data Administrator",
+    ],
   },
 ];
 
