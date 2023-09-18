@@ -149,6 +149,27 @@ const classes: Array<ClassType> = [
       "Data Administrator",
     ],
   },
+
+  {
+    name: "Data",
+
+    image: image9,
+    courseOutlined: [
+      "Overview of Digital Marketting",
+      "Building Strong Online Presence",
+      "Social Media Marketting",
+      "Building Strong Online Presence",
+      "Analytics and Interpretation",
+      "Photography",
+    ],
+    preRequisite: ["Basic Computer Skill", "Working with Browsers"],
+    career: [
+      "Aspiring Software Enginer",
+      "Database Analyst",
+      "Database Manager",
+      "Data Administrator",
+    ],
+  },
 ];
 
 type Props = {
