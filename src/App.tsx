@@ -1,6 +1,7 @@
 import Navbar from "@/scenes/navbar";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
+import { KidsCanCode } from "./pages/kidsCanCode";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //Pages
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           {" "}
           <Route path="/" element={<HomePage />} />
+          <Route path="/kidscancode" element={<KidsCanCode />} />
         </Routes>
       </BrowserRouter>
     </div>

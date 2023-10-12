@@ -151,7 +151,7 @@ const classes: Array<ClassType> = [
   },
 
   {
-    name: "Data",
+    name: "Computer Science ",
 
     image: image9,
     courseOutlined: [
