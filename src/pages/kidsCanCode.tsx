@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Home from "@/scenes/home";
+import { SelectedPage } from "@/shared/types";
 
 interface Props {}
 
 export const KidsCanCode = (props: Props) => {
-  return <div>Hello KidsCan COde</div>;
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(
+    SelectedPage.Home
+  );
+  return (
+    <div className="mt-24">
+      <Home setSelectedPage={setSelectedPage} />
+      <Link to={"/"}>Home</Link>
+    </div>
+  );
 };
